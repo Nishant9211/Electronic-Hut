@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="./img/tab-logo.png">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact | Electronic Hut</title>
+</head>
+<body>
+    <!---------------------- navbar ---------------------->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./img/logo1.png" alt="company logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#product">Products</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./signin.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./img/bag1.png" class="bag">
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------form--------- -->
+
+    <div class="contact-container">
+        <div class="contact-left">
+          <h2 class="contact-left-heading">Contact Us Here</h2>
+  
+          <form action="./php/contact.php" method="POST">
+            <div class="form-element">
+              <input type="text" id="contact-name" class="form-input" name="name" placeholder="Full name"/>
+              <!-- <label for="contact-name">Full Name</label> -->
+            </div>
+  
+            <div class="form-element">
+              <input type="text" id="contact-email" class="form-input" name="email" placeholder="Email"/>
+              <!-- <label for="contact-email">Email</label> -->
+            </div>
+  
+            <div class="form-element">
+              <textarea
+                name="text"
+                id="contact-message"
+                cols="30"
+                rows="10"
+                class="form-input"
+                placeholder="Your message"
+              ></textarea>
+              <!-- <label for="contact-message">Your Message</label> -->
+            </div>
+            <button type="submit" class="form-btn">Register</button>
+  
+            <!-- <input type="submit" class="form-btn" value="Send" /> -->
+          </form>
+        </div>
+        <div class="contact-right">
+          <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </i> <strong>Address</strong>
+            </p>
+            <p>Sector-A 44-45, Galaxy Business Park,<br> Noida Sector 62, Noida - 201309</p><br>
+  
+          <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <strong>Email:</strong>
+          </p>
+          <p>care.electronichut.com</p><br>
+          
+          <p>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <strong>Phone:</strong>
+            </p>
+            <p>+91 1112223333</p>
+            <br />
+          <p>
+            <strong>Connect With Us:</strong>
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+  
+    
+</body>
+</html>

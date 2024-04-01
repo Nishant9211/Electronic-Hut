@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="./img/tab-logo.png">
+    <link rel="stylesheet" href="./css/signin_style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sign in | Electronic Hut</title>
+</head>
+
+<body>
+
+
+
+    <div class="background">
+
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="./img/logo1.png" alt="company logo">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#product">Products</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./signin.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="./img/bag1.png" class="bag">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="submit" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="submit" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="./img/fb.png">
+                <img src="./img/tw.png">
+                <img src="./img/gp.png">
+            </div>
+            <form id="login" action="./php/validation.php" method="POST" class="input-group">
+                <input type="text" name="user" id="" placeholder="User Id" required class="input-field">
+                <input type="password" name="password" id="" placeholder="Enter Password" required class="input-field">
+                <input type="checkbox" name="" id="" class="check-box"> <span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" action="./php/registration.php" method="POST" class="input-group">
+                <input type="text" name="user" id="" placeholder="User Id" required class="input-field">
+                <input type="text" name="email" id="" placeholder="Email Id" required class="input-field">
+                <input type="text" name="password" id="" placeholder="Enter Password" required class="input-field">
+                <input type="checkbox" name="" id="" class="check-box"> <span>I agree to the term & condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
