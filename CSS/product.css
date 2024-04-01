@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ########################## setting value ########################## */
+
+p {
+    color: #555;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ########################## header styling ########################## */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* border: 3px solid red; */
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    /* border: 3px solid blue; */
+}
+
+.logo img {
+    width: 200px;
+    /* border: 3px solid pink; */
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    /* border: 3px solid black; */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* border: 3px solid lightblue; */
+}
+
+.bag {
+    width: 2.5%;
+    /* border: 3px solid orange; */
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+    /* border: 3px solid yellow; */
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border: 3px solid paleturquoise; */
+}
+
+.header {
+    background: #2c3e50;
+    /* border: 3px solid rebeccapurple; */
+}
+
+.header .row {
+    margin-top: 70px;
+    /* border: 3px solid yellowgreen; */
+}
+
+
+/* ########################## slide styling ########################## */
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+.slider {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /* border: 3px solid red; */
+}
+
+
+/* ########################## offers styling ########################## */
+
+.categories1 {
+    margin: 90px 0 40px 0;
+    background-image: linear-gradient(to right, #00416A, #E4E5E6);
+    /* border: 3px solid red; */
+}
+
+.col-1 {
+    float: left;
+    padding: 40px 30px;
+    width: 20%;
+    min-width: 250px;
+    /* border: 3px solid green; */
+}
+
+.col-1 img {
+    width: 100%;
+    border-radius: 50%;
+    /* border: 3px solid pink; */
+}
+
+.small-container1 {
+    max-width: 1500px;
+    margin: auto;
+    /* border: 3px solid blue; */
+}
+
+.small-container1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.categories2 {
+    margin: 90px 0 40px 0;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    /* border: 3px solid red; */
+}
+
+
+/* ##########################  recommended product styling ########################## */
+
+.categories3 {
+    margin: 70px 0 20px 0;
+    background-image: linear-gradient(#C6FFDD, white);
+    /* border: 3px solid red; */
+}
+
+.categories4 {
+    margin: 70px 0 20px 0;
+    background-image: linear-gradient(#acff9f, white);
+    /* border: 3px solid red; */
+}
+
+.col-3 {
+    float: left;
+    padding: 10px 5px;
+    width: 14%;
+    min-width: 214px;
+    /* border: 3px solid green; */
+}
+
+.col-3 img {
+    width: 100%;
+    /* border: 3px solid pink; */
+}
+
+.small-container3 {
+    max-width: 1500px;
+    margin: auto;
+    /* border: 3px solid blue; */
+}
+
+.small-container3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+marquee {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+
+/* ##########################  brand styling ########################## */
+
+.small-container {
+    max-width: 950px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border: 3px solid blue; */
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-4 {
+    width: 160px
+}
+
+.col-4 img {
+    width: 70%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-4 img:hover {
+    filter: grayscale(0%);
+}
+
+.spons-comp small {
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    opacity: 45%;
+}
+
+.spons-comp {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* ##########################  footer styling ########################## */
+
+.row1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer {
+    background: #2c3e50;
+    color: #9d9d9d;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #9d9d9d;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #9d9d9d;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.love {
+    text-align: center;
+}
+
+.far {
+    color: #e74c3c;
+}

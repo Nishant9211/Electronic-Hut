@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ########################## setting value ########################## */
+
+p {
+    color: #555;
+    padding: 40px 30px;
+    /* border: 3px solid green; */
+}
+
+h1 {
+    color: #555;
+    padding: 30px 30px 13px 30px;
+}
+
+h4 {
+    padding-left: 30px;
+    /* border: 3px solid yellow; */
+}
+
+small {
+    color: red;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ########################## header styling ########################## */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* border: 3px solid red; */
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    /* border: 3px solid blue; */
+}
+
+.logo img {
+    width: 200px;
+    /* border: 3px solid pink; */
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    /* border: 3px solid black; */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* border: 3px solid lightblue; */
+}
+
+.bag {
+    width: 2.5%;
+    /* border: 3px solid orange; */
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+    /* border: 3px solid yellow; */
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border: 3px solid paleturquoise; */
+}
+
+.header {
+    background: #2c3e50;
+    /* border: 3px solid rebeccapurple; */
+}
+
+.header .row {
+    margin-top: 70px;
+    /* border: 3px solid yellowgreen; */
+}
+
+
+/* ---------------------------------------------------- */
+
+.categories1 {
+    margin: 70px 0 20px 0;
+    background: white;
+    /* border: 3px solid red; */
+}
+
+.col-1 {
+    float: left;
+    padding: 20px 10px;
+    width: 40%;
+    min-width: 370px;
+    /* margin-right: 55px; */
+    /* border: 3px solid green; */
+}
+
+.col-2 {
+    float: left;
+    padding: 20px 10px;
+    width: 60%;
+    min-width: 370px;
+    /* margin-right: 55px; */
+    /* border: 3px solid green; */
+}
+
+.col-1 img {
+    width: 100%;
+    /* border: 3px solid pink; */
+}
+
+.small-container1 {
+    max-width: 1500px;
+    margin: auto;
+    /* border: 3px solid blue; */
+}
+
+.small-container1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.button {
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #4CAF50;
+}
+
+.button2 {
+    background-color: #008CBA;
+}
